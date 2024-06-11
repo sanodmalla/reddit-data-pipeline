@@ -1,0 +1,223 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1dboo9l,"2010 — 2017: 
+ML = pip install scikit-learn
+
+2017 — 2023:
+ML = pip install torch
+
+2023 — : 
+ML = pip install requests",,115,7,Economy-Spread1955,2024-06-09 08:05:25,https://i.redd.it/erufs7q07i5d1.png,0,False,False,False,False
+1dbrb67,Data pipelines with DuckDB,"Hello everyone,
+
+I've built data pipelines that run on ephemeral VMs (with Python standard libraries). This pattern is becoming even more popular with systems like DuckDB and Polars.
+
+I wrote some unoptimized queries (fact-fact joins and multi-level groups) and was surprised at how well DuckDB performed on a base codespace VM. [Code here](https://github.com/josephmachado/cost_effective_data_pipelines/blob/29c0b6b7a791179b299084d830a68a84eb828650/src/data_processor/wide_month_supplier_metrics.py#L58-L123)
+
+But I see some things to be mindful of, like data transfer, pipeline patterns, permission models, and where to use systems like DuckDB. With that in mind, I wrote a post.
+
+Cost-effective data pipelines https://www.startdataengineering.com/post/cost-effective-pipelines/
+
+Code: https://github.com/josephmachado/cost\_effective\_data\_pipelines
+
+What are some of the other things to look out for?",35,4,joseph_machado,2024-06-09 11:10:34,https://www.reddit.com/r/dataengineering/comments/1dbrb67/data_pipelines_with_duckdb/,1,False,False,False,False
+1dbf4xg,Meta Tech Stack,"For a lot of the non-faang jobs, seems like you need to come in not just knowing sql and python, but also specific vendor tools.  For example, sql server, aws glue, snowflake, etc.  Is it the same for Meta, or do they just want you to have a good grip on fundamentals?
+
+Edit:
+Thanks guys.  This helps me focus my prep.",29,10,Lower_Sun_7354,2024-06-08 22:55:56,https://www.reddit.com/r/dataengineering/comments/1dbf4xg/meta_tech_stack/,0,False,False,False,False
+1dbucey,"Those on Redshift, what’s the plan?","Are you looking to migrate away from Redshift?
+
+Is it difficult finding engineers with Redshift expertise or engineers willing to work at a company that uses Redshift?
+
+Data engineers would you take a job if company was using Redshift?
+
+I feel (with no substantial evidence other than one’s gut) that a lot of companies are still using Redshift and don’t want the hassle of migrating because “it just works” or some other reasons…would love to know what those other reasons are if anyone is using redshift?",22,45,theoriginalmantooth,2024-06-09 13:58:07,https://www.reddit.com/r/dataengineering/comments/1dbucey/those_on_redshift_whats_the_plan/,0,False,False,False,False
+1dbuxqz,How Did Your Work Change When You Became a Senior/Staff Engineer?,"I'm curious about how your responsibilities and day-to-day tasks evolved as you transitioned from a mid-level engineer to a senior/staff engineer.
+
+- What were the main differences in your work?
+- How did your responsibilities change?
+
+Also, if you were a mid-level engineer today, what steps would you take to prepare for a senior/staff engineer role?
+
+What are the skills that a mid-level engineer should master before thinking about becoming a senior?
+
+Really appreciate it if you could share your experience. Thanks! ",21,15,RockLeeBaiano3000,2024-06-09 14:25:13,https://www.reddit.com/r/dataengineering/comments/1dbuxqz/how_did_your_work_change_when_you_became_a/,0,False,False,False,False
+1dbe4c0,Choosing between AWS Glue and EMR Serverless for an ETL pipeline,"I'm building a data lake on S3 and I want to create an ETL pipeline that takes in raw data, parses it, performs joins and transformations and then stores it in S3. I'm going to be using MWAA to orchestrate the tasks and I'm debating between going with AWS Glue or EMR Serverless for the compute platform. Both of them are serverless and run Spark scripts to do this type of data processing. I setup a dummy data PoC DAG for both Glue and EMR Serverless and both of them were very similar. Which one should I go with for my use case? Happy to share more details if needed.",12,8,ihatevacations,2024-06-08 22:08:04,https://www.reddit.com/r/dataengineering/comments/1dbe4c0/choosing_between_aws_glue_and_emr_serverless_for/,1,False,False,False,False
+1dbsprj,Most interesting data blogs to read,"I started a blog for the best articles and blogs to read to get a deeper understanding of concepts, ideas and strategies about data & analytics. My idea is to have a read for every day to continiuously learn new things here.
+
+I do not look for blogs/articles about specific technologies/vendors but it can be from a vendor if it is general enough. I'm not interested in implementation examples as everyone in data should be able get value from it and it shouldn't be to commercial.
+
+It is about learning how data & analytics works and how to create value with. The blog should'nt be to old - best from the last 4 weeks, to reflect what is currently interesting.
+
+If you have any suggestions, I would be very happy. It is hard to find really create articles in this range. Here is my latest blog list: [https://peterbaumann.substack.com/p/data-and-analytics-reading-list-062024](https://peterbaumann.substack.com/p/data-and-analytics-reading-list-062024)
+
+Thank you for help, creating a great reading list about data & analytics.",10,1,Nice-Height-3545,2024-06-09 12:34:18,https://www.reddit.com/r/dataengineering/comments/1dbsprj/most_interesting_data_blogs_to_read/,0,False,False,False,False
+1dbpj3i,Is it possible to become a data engineer in 6 months? I graduate next april,"I am currently a junior undergraduate in information systems, with an expected graduation date of April 2025. I've decided to aim for a position as a data engineer within 6 months, as that’s when I graduate and need to secure a job (since I'm on a visa). I've gained experience evaluating technology startups and conducting market analysis during my time as a business analyst at HP Tech Ventures, which I believe has given me a solid foundation. I know it's a bit ambitious, but I want to give it my best shot. Here's my plan:
+
+1. Learn Python and SQL through Mosh Code.
+2. Obtain data engineering certifications from IBM and AWS (I've completed 3 out of 15 IBM certificates, but I have yet to start the AWS one).
+3. Practice my skills on LeetCode, StrataScratch, etc.
+4. Hopefully, land a job at least related to this field.
+
+I know this plan sounds kinda rudimentary, but I’m open to altering this plan to have the most success. I would appreciate any feedback on my plan from y'all ",9,18,UnderstandingOld6262,2024-06-09 09:05:29,https://www.reddit.com/r/dataengineering/comments/1dbpj3i/is_it_possible_to_become_a_data_engineer_in_6/,0,False,False,False,False
+1dbe8p1,I would like collaborate on data projects?,"I'm a data engineer with experience on airflow, aws, gcp, DBT, Python, docker...you know....and I would like to collaborate on any interesting project, maybe something related with duckdb, prefect, data lineage, etc. 
+
+Could you give me some directions on where I need to start looking at?
+
+Do you have any exciting project in mind which you had not started yet because you don't have enough time?",10,5,Proud-Walk9238,2024-06-08 22:13:40,https://www.reddit.com/r/dataengineering/comments/1dbe8p1/i_would_like_collaborate_on_data_projects/,0,False,False,False,False
+1dc39es,"Favorite Stream Processing Tool (Flink, Red Panda, Warpstream)","What are your preferred tools for:
+
+- Message Brokering (Kafka, AWS Kinesis)
+- Stream Processing (Kafka Connect, Red Panda, Warpstream, Flink)
+
+What do you like about the ones you enjoy and any tips for best practices?",9,0,AMDataLake,2024-06-09 20:24:00,https://www.reddit.com/r/dataengineering/comments/1dc39es/favorite_stream_processing_tool_flink_red_panda/,1,False,False,False,False
+1dbh929,Terraform vs OpenTofu,"Hey folks - looking to jump into IaC, and wanted to get a sense of where the space is going / what I should learn. I know OpenTofu is early, but my gut says to steer clear of Terraform and it's movement away from open source. Any thoughts or suggestions?",8,4,Few_Barber_8292,2024-06-09 00:40:12,https://www.reddit.com/r/dataengineering/comments/1dbh929/terraform_vs_opentofu/,1,False,False,False,False
+1dbe3j2,Favorite resources related to project management in the context of data engineering?,"I've been thrown into a new branch of our company that the executives are trying to develop related to migrating data.  We have a contract to migrate data for another company whenever someone is changing to their application. It has been a wreck so far.  I was brought on late but I have the most domain knowledge so I'm being kind of pushed to the front to fix this.  I like these kinds of situations where I can analyze and try and fix problems and I think it will look great on further applications, so I'm going to tackle it.  In my opinion, most of the issues come down to lack of leadership/planning/understanding the actual task at hand.  Lots of the mid and junior levels are kind of winging it and asking each other for help, and not getting a lot of clear responses from the director level because this is uncharted territory for them, which I know is the major problem.  For what I control, I want to work on ways to reduce incorrect work being submitted as complete, improved communication, etc.  I know this is all kind of vague, but I would like to read more about how a project manager might think in this situation.  Does anyone have any books, ideally related to tech or DE, they'd recommend?  It may be better to just get a basic understanding of project management principals, so if you have any books on that I'd love to hear them as well.   
+
+Also would LOVE anecdotes about course correcting disastrous /nonexistent projects as well!",7,6,Ok-Carpet-2891,2024-06-08 22:06:58,https://www.reddit.com/r/dataengineering/comments/1dbe3j2/favorite_resources_related_to_project_management/,0,False,False,False,False
+1dbqca5,Azure Data Engineering Subscription,I have been following Azure Data Engineering Tutorial in Youtube and they are using Pay-as-you-go subscription. I have not personally tried it yet but will they charge while learning? Is free tier subscription enough to learn DE?,4,2,Complex_Brush_4855,2024-06-09 10:04:02,https://www.reddit.com/r/dataengineering/comments/1dbqca5/azure_data_engineering_subscription/,1,False,False,False,False
+1dbefov,Training for Google Cloud Data Engineer?,"Hello all
+
+I'm studying for the google cloud data engineer certification.
+
+Mainly focus on understanding concepts and now reviewing questions that might be on the exam.
+
+My question is: there is a site that is best above the others?
+Maybe with the most recent questions?",5,0,SrLemon95,2024-06-08 22:22:42,https://www.reddit.com/r/dataengineering/comments/1dbefov/training_for_google_cloud_data_engineer/,0,False,False,False,False
+1dc2cfu,Reddit Post & Comment Vector Analysis and Search,"A while back I posted a personal project about an ETL process for grabbing and analyzing Reddit comments from this subreddit. I never got around to cleaning up the repo and sharing it out but someone here reached out last night asking about it. Unfortunately the original project was lost but it wasn't anything special anything. That said, I wanted to take another swing at it using a different approach. While this isn’t a traditional data engineering project and falls into data analysis, I figured some people here may be interested nonetheless:
+
+**Reddit Post & Comment Vector Analysis and Search**
+
+[https://github.com/jwest22/reddit-vector-analysis](https://github.com/jwest22/reddit-vector-analysis)
+
+This project retrieves recent posts and comments from a specified subreddit for a given lookback period, generates embeddings using Sentence Transformers, clusters these embeddings, and enables similarity search using FAISS.
+
+Please see the repo for a more specific overview & instructions! 
+
+**Technology Used:**
+
+**SentenceTransformers:** SentenceTransformers is used to generate embeddings for the posts and comments. These embeddings capture the semantic meaning of the text, allowing for more nuanced clustering and similarity searches.
+
+SentenceTransformers is a Python framework for state-of-the-art transformer models specifically fine-tuned to create embeddings for sentences, paragraphs, or even larger blocks of text. Unlike traditional word embeddings, which represent individual words, sentence embeddings capture the context and semantics of entire sentences. This makes them particularly useful for tasks like semantic search, clustering, and various natural language understanding tasks.
+
+This is the same base technology that LLMs such as ChatGPT rely on to process and understand the context of your queries by generating embeddings that capture the meaning of your input. This allows the model to provide coherent and contextually relevant responses.
+
+**Embedding Model:** For this project, I'm using the 'all-MiniLM-L6-v2' model ([https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)). This model is a lightweight version of BERT, optimized for faster inference while maintaining high performance. It is specifically designed for producing high-quality sentence embeddings. 
+
+* **Architecture:** The model is based on a 6-layer Transformer architecture, making it much smaller and faster than traditional BERT models.
+* **Training:** It is fine-tuned on a large and diverse dataset of sentences to learn high-quality sentence representations.
+* **Performance:** Despite its smaller size, 'all-MiniLM-L6-v2' achieves state-of-the-art performance on various sentence similarity and clustering tasks.
+
+[FAISS (Facebook AI Similarity Search):](https://ai.meta.com/tools/faiss/) An open-source library developed by Facebook AI Research. It is designed to efficiently search for and cluster dense vectors, making it particularly well-suited for large-scale datasets. 
+
+* **Scalability:** FAISS is optimized to handle massive datasets with millions of vectors, making it perfect for managing the embeddings generated from sources such as large amounts of Reddit data.
+* **Speed:** The library is engineered for speed, using advanced algorithms and hardware optimization techniques to perform similarity searches and clustering operations very quickly.
+* **Versatility:** FAISS supports various indexing methods and search strategies, allowing it to be adapted to different use cases and performance requirements.
+
+**How FAISS Works:** FAISS works by creating an index of the vectors, which can then be searched to find the most similar vectors to a given query. The process involves:
+
+1. **Indexing:** FAISS builds an index from the embeddings, using methods like k-means clustering or product quantization to structure the data for efficient searching.
+2. **Searching:** When a query is provided, FAISS searches the index to find the closest vectors. This is done using distance metrics such as Euclidean distance or inner product.
+3. **Ranking:** The search results are ranked based on their similarity to the query, with the top k results being returned along with their respective distances.
+
+",3,2,JEs4,2024-06-09 19:46:17,https://www.reddit.com/r/dataengineering/comments/1dc2cfu/reddit_post_comment_vector_analysis_and_search/,1,False,False,False,False
+1dbfkmd,Timestamp column has multiple formats,Migrating a 1TB table with 2 billion rows and 300 columns from hive to AWS. Hive has many timestamp columns and the have different format (both qualified and unqualified). What would be an efficient way to get all the formats of the timestamp....kind of like data profiling. The aim is to create a cast function to make the timestamp consistent. ,4,4,KarmicDharmic,2024-06-08 23:16:31,https://www.reddit.com/r/dataengineering/comments/1dbfkmd/timestamp_column_has_multiple_formats/,1,False,False,False,False
+1dc45gb,I am confused about some concepts,"What's the difference between Application Master, Cluster manager and Driver in a spark application. 
+
+I am not even going to try to differentiate because for me it's all over the place. Can someone please help? ",2,0,notechmajor,2024-06-09 21:01:23,https://www.reddit.com/r/dataengineering/comments/1dc45gb/i_am_confused_about_some_concepts/,1,False,False,False,False
+1dc3fvk,Informatica ,Did anyone here succeeded to deploy Informatica deployment manager on a kubernetes cluster before? Need some help ,2,0,Newbeginning_,2024-06-09 20:31:36,https://www.reddit.com/r/dataengineering/comments/1dc3fvk/informatica/,1,False,False,False,False
+1dc2mxt,Project / portfolio review : Looking to start a career as a Data Engineer,"Hi hi,
+
+I am a software engineer that made a little stupid decision after my graduation and took the first job I found. It's a position as Salesforce Developer in a big consulting company. And as it turned out, this is not a very passioning job for me 😅. So now, I am trying to find a job as Data engineer and I started to build some projects to showcase my skills.
+
+Latest project : [medium article link](https://medium.com/@ali.marzouk2/end-to-end-data-engineering-openaq-api-to-real-time-dashboards-using-spark-and-airflow-59e03f6d7418) + [demo link](https://alimarzouk.github.io/Paris-AQ/dashboard/).
+
+Github profile: [https://github.com/AliMarzouk](https://github.com/AliMarzouk)
+
+I would appreciate any constructive criticism to further improve my project and / or profile.
+
+Any tips and tricks on how to find a job in Data engineering can greatly help me.
+
+Thank you for your help !",1,0,MahresCityGang,2024-06-09 19:58:38,https://www.reddit.com/r/dataengineering/comments/1dc2mxt/project_portfolio_review_looking_to_start_a/,1,False,False,False,False
+1dbumv4,How Do You All Do Surrogate Key Implementions,"Hey all, curious how folks prefer to implement surrogate keys for star schemas these days, and in this example we'll be talking about SCD2. As far as I can tell there are 2 modes of thought
+
+1. MIISK's (basically auto increment integer keys)
+2. Hashing the natural key with MD5 or SHA-256
+
+I've been trying to research the differences between these 2 techniques and there's something in the decision making that I cannot find any information on. Not only that, but I also can't find any real star schema implementations online that use SCD as well as the ***user access patterns*** (I'll get to this in a second). I want to break down an example using each technique to explain what I mean by user access patterns.
+
+Lets imagine we had 2 tables, a fact table that contains orders, and a dimension table that contains products. The part I want to focus on is the natural key for the product dimension which is ***product\_code***. Both of these examples are insanely simple for the purposes of discussion
+
+# MIISK (monotonically increasing integer surrogate keys)
+
+From my optics, this is the way that things were always done. We assign an incrementing integer (maybe serial in some databases) to each row in the products dimension as new rows are added. This could be for new products that have been added, or for evolving state in existing products. An example would be below
+
+**orders\_fact**
+
+|order\_key|order\_time|product\_key|quantity|
+|:-|:-|:-|:-|
+|1|2024-06-08 16:30:00|2|2|
+
+**products\_dim**
+
+|product\_key|product\_code|manufacturer|valid\_from|valid\_to|
+|:-|:-|:-|:-|:-|
+|1|123|ABC123|2024-06-07 12:30:00|2024-06-08 12:30:00|
+|2|123|XYZ456|2024-06-08 12:30:00|9999-12-31 23:59:59|
+
+As we can see in this example, product 123 had it's manufacturer change on the source system (maybe an acquisition or rebranding happened). Since our product\_key (SK) is unique, we naturally get the correct state of the product by simply doing an inner join between orders\_fact and products\_dim. So if I wanted to join these tables, it's as simple as 
+
+    SELECT * FROM orders_fact of 
+    INNER JOIN products_dim pd ON (of.product_key = pd.product_key)
+
+**PROS OF MIISKS**
+
+1. Our key is always unique, so users don't need to think about how they join tables together with logic like WHERE order\_time between products\_dim.valid\_from and products\_dim.valid\_to
+2. Our surrogate key is a small data type which is more efficient for joins
+
+**CONS OF MIISKS**
+
+1. Our ETL becomes a bit more complicated since we need to do lookups on the dimension tables to populate the keys in our fact tables.
+2. Since our product\_keys are auto-incremented to be generated, our surrogate keys are now **stateful**.
+3. Auto-incrementing keys can be a performance bottleneck in distributed systems
+
+# Hashing The Natural Key
+
+The other technique that is new to me (learned about it from playing with DBT) is **hashing the natural key**. This seems great for a lot of reasons, and before i dive into my perceived pros and cons I'll provide an example
+
+**orders\_fact**
+
+|order\_key|order\_time|product\_key|quantity|
+|:-|:-|:-|:-|
+|3e0e3fbe01|2024-06-08 16:30:00|7de07d0370|2|
+
+**products\_dim**
+
+|product\_key|product\_code|manufacturer|valid\_from|valid\_to|
+|:-|:-|:-|:-|:-|
+|7de07d0370|123|ABC123|2024-06-07 12:30:00|2024-06-08 12:30:00|
+|7de07d0370|123|XYZ456|2024-06-08 12:30:00|9999-12-31 23:59:59|
+
+There is a clear difference in doing this hashing technique, and the difference is that our product\_key is simply our natural key run through a hash. But since that's the case, our product\_key is no longer **unique**. Since this is the case, we need to add WHERE clause logic to get the correct state of a product to match our order
+
+    SELECT * FROM orders_fact of 
+    INNER JOIN products_dim pd ON (of.product_key = pd.product_key)
+    WHERE of.order_time BETWEEN valid_from AND valid_to
+
+**PROS OF HASHING NK's**
+
+1. Hashing our natural key as a surrogate key makes it so our keys are now **deterministic**. So whether it's on dev, staging, or prod, we always get the same results and don't need to manage state.
+2. ETL is simpler since all we need to do is hash the NK in the fact table, no lookups in the dimension required.
+
+**CONS OF MIISKS**
+
+1. Our surrogate keys are no longer unique to each state (evolution of attributes), and getting the correct state on a join is now up to the user to have to include WHERE clauses for each join to make sure our fact date is in between the valid\_from and valid\_to. This means if we join 5 tables, we need to specify this 5 times for each query we write
+
+# My Final Thoughts
+
+So all of that context aside, my current thought process is while hashing solves some problems that MIISK's have around state, to me it still seems like a bad idea for 1 big reason. **We are now pushing the responsibility onto the users for performing the correct join logic**. To me, data modeling is all about creating the best interface possible to enable business users to ask questions against the data with as little friction as possible. Having a truly unique SK like in the MIISK example seems to do this better than hashes. I don't want users to have to think about the technical nature of the model and redundantly have to add WHERE clauses all over the place every time they do a join. To me, the business users should be able to just do inner joins and that's it. Having to know about this valid\_from valid\_to join logic to me smells like a **leaky abstraction**.
+
+Not only this, but users that use GUI tools like Tableau and PowerBI now have to specify the join logic in setting up their data sources to include this WHERE clause. Maybe not the end of the world, but I'd rather build a system defensively so users aren't accidentally double or triple counting orders because they forgot to put the correct join logic somewhere.
+
+What is everyones thoughts here? How do you do this? It's amazing that as much as I can read about star schemas and Kimball online, I can't find a single no kidding implementation in code that covers what I'm discussing here. DBT has a blog post showing star schemas, but they don't do slowly changing dimensions so SK's aren't demonstrated. They also have a blog post discussing this very topic but it's missing the meat of how users now have to access data which is what I'm trying to discuss here.",1,0,Still-Box-1689,2024-06-09 14:11:28,https://www.reddit.com/r/dataengineering/comments/1dbumv4/how_do_you_all_do_surrogate_key_implementions/,1,False,False,False,False
+1dbp31u,How to upgrade my current Apache Druid version,"I have a Druid cluster that I want to upgrade to the latest version. What are the steps I should follow. In the official docs they just mention the order of items to be upgraded but not how it’s done . Anyone has done this before ? 
+",1,0,Actual-Performer-832,2024-06-09 08:33:49,https://www.reddit.com/r/dataengineering/comments/1dbp31u/how_to_upgrade_my_current_apache_druid_version/,1,False,False,False,False

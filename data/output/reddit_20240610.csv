@@ -1,0 +1,27 @@
+id,title,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1dboo9l,"2010 — 2017: 
+ML = pip install scikit-learn
+
+2017 — 2023:
+ML = pip install torch
+
+2023 — : 
+ML = pip install requests",173,9,Economy-Spread1955,2024-06-09 08:05:25,https://i.redd.it/erufs7q07i5d1.png,False,False,False,False
+1dbrb67,Data pipelines with DuckDB,40,10,joseph_machado,2024-06-09 11:10:34,https://www.reddit.com/r/dataengineering/comments/1dbrb67/data_pipelines_with_duckdb/,False,False,False,False
+1dbuxqz,How Did Your Work Change When You Became a Senior/Staff Engineer?,33,16,RockLeeBaiano3000,2024-06-09 14:25:13,https://www.reddit.com/r/dataengineering/comments/1dbuxqz/how_did_your_work_change_when_you_became_a/,False,False,False,False
+1dbucey,"Those on Redshift, what’s the plan?",28,57,theoriginalmantooth,2024-06-09 13:58:07,https://www.reddit.com/r/dataengineering/comments/1dbucey/those_on_redshift_whats_the_plan/,False,False,False,False
+1dc6ovv,More recent books that people think provide a valuable introduction to aspects of the field in the context of new tools?,19,12,eamonious,2024-06-09 22:53:37,https://www.reddit.com/r/dataengineering/comments/1dc6ovv/more_recent_books_that_people_think_provide_a/,False,False,False,False
+1dbsprj,Most interesting data blogs to read,14,1,Nice-Height-3545,2024-06-09 12:34:18,https://www.reddit.com/r/dataengineering/comments/1dbsprj/most_interesting_data_blogs_to_read/,False,False,False,False
+1dbpj3i,Is it possible to become a data engineer in 6 months? I graduate next april,12,21,UnderstandingOld6262,2024-06-09 09:05:29,https://www.reddit.com/r/dataengineering/comments/1dbpj3i/is_it_possible_to_become_a_data_engineer_in_6/,False,False,False,False
+1dc6ndx,Big O Notation ,10,5,Lower_Sun_7354,2024-06-09 22:51:32,https://www.reddit.com/r/dataengineering/comments/1dc6ndx/big_o_notation/,False,False,False,False
+1dc39es,"Favorite Stream Processing Tool (Flink, Red Panda, Warpstream)",8,0,AMDataLake,2024-06-09 20:24:00,https://www.reddit.com/r/dataengineering/comments/1dc39es/favorite_stream_processing_tool_flink_red_panda/,False,False,False,False
+1dc897t,"We are about to build a new ETL, any suggestions?",8,12,Conscious_Credit_181,2024-06-10 00:08:40,https://www.reddit.com/r/dataengineering/comments/1dc897t/we_are_about_to_build_a_new_etl_any_suggestions/,False,False,False,False
+1dc2cfu,Reddit Post & Comment Vector Analysis and Search,3,2,JEs4,2024-06-09 19:46:17,https://www.reddit.com/r/dataengineering/comments/1dc2cfu/reddit_post_comment_vector_analysis_and_search/,False,False,False,False
+1dbqca5,Azure Data Engineering Subscription,3,2,Complex_Brush_4855,2024-06-09 10:04:02,https://www.reddit.com/r/dataengineering/comments/1dbqca5/azure_data_engineering_subscription/,False,False,False,False
+1dcdejb,MWAA or Astronomer with Meltano,3,2,cfeduke,2024-06-10 04:46:59,https://www.reddit.com/r/dataengineering/comments/1dcdejb/mwaa_or_astronomer_with_meltano/,False,False,False,False
+1dcbi8w,Least painful way to swap MDM ID,3,0,flyingbuta,2024-06-10 02:58:22,https://www.reddit.com/r/dataengineering/comments/1dcbi8w/least_painful_way_to_swap_mdm_id/,False,False,False,False
+1dc45gb,I am confused about some concepts,2,0,notechmajor,2024-06-09 21:01:23,https://www.reddit.com/r/dataengineering/comments/1dc45gb/i_am_confused_about_some_concepts/,False,False,False,False
+1dc3fvk,Informatica ,2,0,Newbeginning_,2024-06-09 20:31:36,https://www.reddit.com/r/dataengineering/comments/1dc3fvk/informatica/,False,False,False,False
+1dc2mxt,Project / portfolio review : Looking to start a career as a Data Engineer,2,0,MahresCityGang,2024-06-09 19:58:38,https://www.reddit.com/r/dataengineering/comments/1dc2mxt/project_portfolio_review_looking_to_start_a/,False,False,False,False
+1dbumv4,How Do You All Do Surrogate Key Implementions,1,1,Still-Box-1689,2024-06-09 14:11:28,https://www.reddit.com/r/dataengineering/comments/1dbumv4/how_do_you_all_do_surrogate_key_implementions/,False,False,False,False
+1dbp31u,How to upgrade my current Apache Druid version,1,0,Actual-Performer-832,2024-06-09 08:33:49,https://www.reddit.com/r/dataengineering/comments/1dbp31u/how_to_upgrade_my_current_apache_druid_version/,False,False,False,False
